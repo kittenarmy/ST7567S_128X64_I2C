@@ -8,6 +8,7 @@
 #include <avr/pgmspace.h> 
 
 /********************************************************
+ * picture format image2cpp vertical - 1 bit per pixel 
  * picture pixel table                                                  
  * picture: 
  * x y---------------------> + 128
@@ -15,7 +16,7 @@
  * |                    |
  * |---------------------
  * | +
- * v 32                                              
+ * v 64                                              
  ********************************************************/
 const int picture[] PROGMEM ={
       0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
